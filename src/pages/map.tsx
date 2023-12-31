@@ -184,6 +184,7 @@ const Map = () => {
   };
   useEffect(() => {
     GetMapPoints();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const mapSocket = useMapSocket(

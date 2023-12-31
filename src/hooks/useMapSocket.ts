@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { SocketContext } from "../context/socketContext";
 import { replaceOrUpdateArrayByKey } from "../helper/updateObjects";
 import { useContext, useEffect } from "react";

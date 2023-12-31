@@ -4,7 +4,7 @@ import { createClient } from "@sanity/client";
 // import {createClient} from 'https://esm.sh/@sanity/client'
 
 export const client = createClient({
-  projectId: "i3el3t92",
+  projectId: "s0874vj3",
   dataset: "production",
   useCdn: false,
   apiVersion: "2021-03-25",

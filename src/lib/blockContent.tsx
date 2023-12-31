@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { urlFor } from "./imageBuilder";
 
 export const BlockContent = {

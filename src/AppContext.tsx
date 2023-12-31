@@ -7,6 +7,7 @@ export const AppContext = ({ router }: { router: unknown }) => {
   const [mapPoints, setMapPoints] = useState<MapPoint[] | undefined>();
   const [latLng, setLatLng] = useState<mapPoint | undefined>();
   const [enabled, setEnabled] = useState<boolean>(false);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [initialMarker, setInitialMarker] = useState<any | undefined>(
     undefined
   );

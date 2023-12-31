@@ -16,6 +16,7 @@ export const mapContext = createContext({
   setLatLng: Function as React.ComponentState,
   enabled: false as boolean,
   setEnabled: Function as React.ComponentState,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   initialMarker: {} as any,
   setInitialMarker: Function as React.ComponentState,
   initalMarkerUrl: "" as string | undefined,

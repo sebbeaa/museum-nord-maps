@@ -1,14 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 //add comments to this!!!
 import mapboxgl from "mapbox-gl";
 import { useState } from "react";
-import {
-  createContext,
-  LegacyRef,
-  useContext,
-  useEffect,
-  useMemo,
-  useRef,
-} from "react";
+import { createContext, useContext, useEffect, useMemo, useRef } from "react";
 import { mapContext } from "../context/mapContext";
 
 mapboxgl.accessToken =
@@ -268,10 +262,7 @@ const MainMap = () => {
 
   return (
     <mapCurrentContext.Provider value={mapMemo}>
-      <div
-        className="mapContainer"
-        ref={mapContainer as LegacyRef<HTMLDivElement>}
-      />
+      <div className="mapContainer" ref={mapContainer as any} />
     </mapCurrentContext.Provider>
   );
 };

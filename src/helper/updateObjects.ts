@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export function replaceOrUpdateArrayByKey(arr: any, newObj: any) {
   return arr.map((obj: any) =>
     obj._id.replace("drafts.", " ").trim() ===
